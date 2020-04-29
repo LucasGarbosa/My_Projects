@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DEV_DW_InfraDB"
+  DTS:DTSID="{1C4CEB57-E6FE-4166-9BB9-14A2A71C50E1}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Dev_Target_DataBase]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Name">@[$Project::Dev_Target_DataBase]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=hiq-powerbi.hiqconsulting.org;User ID=sa_bi;Initial Catalog=DEV_DW_InfraDB;Provider=SQLNCLI11.1;Persist Security Info=True;Auto Translate=False;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAC9JnCGBOi06nE9uogTHaGwAAAAACAAAAAAAQZgAAAAEAACAAAACpLew1GVXeRMftmrn574FVpkWqHq2FxRpjrOz7NRBYlQAAAAAOgAAAAAIAACAAAACOP7ppj7hQR+SRJPO/XU4ZH8cMbg7gcbU0poy+8ur/WIAAAABnv/dJ+5zYFO0y6s6Ku7kpHM2fu1ZMbo+FfmG9CDH2rxtChVQk3Iof+OlRP7gxdUKaZbx49MWJV569oA4FYsZwAAVSbPN1Y4C6dgT3KkQ++J9IfosqTWAKYscY4X9894B05EcluDjtDh33yD+SPj9XbIaxaknf8HPUm7rTemVZO0AAAADuWao8YlWbva3B0Ci+QTh6980MhusOehcQjRTUf3Nzo9/+G5AHTquCE2NFjTvrdnXygNWMYLusZ7pDB3ceveC8</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
