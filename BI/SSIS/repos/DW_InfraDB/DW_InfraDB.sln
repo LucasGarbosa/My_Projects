@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "DW_InfraDB", "DW_InfraDB\DW_InfraDB.dtproj", "{64D22AAE-CC58-4AD1-8589-2B0E2B7819C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64D22AAE-CC58-4AD1-8589-2B0E2B7819C4}.Development|Default.ActiveCfg = Development
+		{64D22AAE-CC58-4AD1-8589-2B0E2B7819C4}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8732CEBA-5226-48D1-A08A-26E41D4FCC28}
+	EndGlobalSection
+EndGlobal
