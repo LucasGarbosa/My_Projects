@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DEV_DW_InfraDB"
+  DTS:DTSID="{068DACD9-DD58-4646-AC2F-C979884365E7}"
+  DTS:CreationName="OLEDB">
+  <DTS:PropertyExpression
+    DTS:Name="InitialCatalog">@[$Project::Dev_Hiq_ServerDB]</DTS:PropertyExpression>
+  <DTS:PropertyExpression
+    DTS:Name="Name">@[$Project::Dev_Hiq_ServerDB]</DTS:PropertyExpression>
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=hiq-powerbi.hiqconsulting.org;Initial Catalog=DEV_DW_InfraDB;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Load_DimensionAndFact-{068DACD9-DD58-4646-AC2F-C979884365E7}localhost\sqlexpress.DW_InfraDB;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
